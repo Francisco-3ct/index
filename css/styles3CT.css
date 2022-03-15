@@ -385,6 +385,10 @@ main#curso {
   padding: 0 2em;
 }
 
+
+#curso .temario li {
+  font-size: 1.2rem;
+}
 /* anuncios */
 
 #anuncios {
