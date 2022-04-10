@@ -194,6 +194,14 @@ section div.renglon aside.ventana-horarios:target div.abrir-ventana {
     transition: top 0.35s ease;
 }
 
+section div.renglon aside.ventana-pagos div.abrir-ventana a.btnCerrar {
+    position: absolute;
+    top: 0.2em;
+    right: 0.375em;
+    margin: 0;
+    padding: 5px;
+}
+
 
 /* barra superior */
 
