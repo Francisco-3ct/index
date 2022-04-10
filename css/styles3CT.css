@@ -202,6 +202,11 @@ section div.renglon aside.ventana-pagos div.abrir-ventana a.btnCerrar {
     padding: 5px;
 }
 
+section div.renglon aside.ventana-pagos div.abrir-ventana header {
+  background-color: lightblue;
+}
+  
+
 
 /* barra superior */
 
