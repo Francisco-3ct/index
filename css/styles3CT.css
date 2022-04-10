@@ -71,6 +71,18 @@ section div.renglon a.btn {
   display: inline-flex;
 }
 
+/* Ventana Emergente*/
+section div.renglon aside.ventana-emergente {
+    position: fixed;
+    top: -100vh;
+    left: 0;
+    z-index: 99999999;
+    width: 100vw;
+    height: 100vh;
+    opacity: 0;
+    transition: opacity 0.35s ease;
+}
+
 /* barra superior */
 
 #topBar {
