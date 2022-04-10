@@ -72,7 +72,7 @@ section div.renglon a.btn {
 }
 
 /* Ventana Emergente*/
-section div.renglon aside.ventana-emergente {
+section div.renglon aside.ventana-pagos {
     position: fixed;
     top: -100vh;
     left: 0;
@@ -82,10 +82,22 @@ section div.renglon aside.ventana-emergente {
     opacity: 0;
     transition: opacity 0.35s ease;
 }
+section div.renglon aside.ventana-sesion {
+    position: fixed;
+    top: -100vh;
+    left: 0;
+    z-index: 99999999;
+    width: 100vw;
+    height: 100vh;
+    opacity: 0;
+    transition: opacity 0.35s ease;
+}
+
 section div.renglon a#bntVentana {
     transition: all 0.15s linear;
 }
-section div.renglon aside.ventana-emergente div.abrir-ventana {
+
+section div.renglon aside.ventana-pagos div.abrir-ventana {
     width: 100%;
     max-width: 500px;
     position: fixed;
@@ -97,18 +109,48 @@ section div.renglon aside.ventana-emergente div.abrir-ventana {
     border-radius: 2px;
     z-index: 9999999;
 }
-section div.renglon aside.ventana-emergente:target {
+section div.renglon aside.ventana-sesion div.abrir-ventana {
+    width: 100%;
+    max-width: 500px;
+    position: fixed;
+    left: 50%;
+    top: -100vh;
+    transition: top 0.35s ease;
+    margin-left: -250px;
+    background: white;
+    border-radius: 2px;
+    z-index: 9999999;
+}
+
+section div.renglon aside.ventana-pagos:target {
     opacity: 1;
     top: 0;
 }
-section div.renglon aside.ventana-emergente a.cerrar-ventana {
+section div.renglon aside.ventana-sesion:target {
+    opacity: 1;
+    top: 0;
+}
+
+section div.renglon aside.ventana-pagos a.cerrar-ventana {
     position: absolute;
     left: 0;
     width: 100%;
     height: 100%;
     z-index: 99999991;
 }
-section div.renglon aside.ventana-emergente:target div.abrir-ventana {
+section div.renglon aside.ventana-sesion a.cerrar-ventana {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 99999991;
+}
+
+section div.renglon aside.ventana-pagos:target div.abrir-ventana {
+    top: 50px;
+    transition: top 0.35s ease;
+}
+section div.renglon aside.ventana-sesion:target div.abrir-ventana {
     top: 50px;
     transition: top 0.35s ease;
 }
