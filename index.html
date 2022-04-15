@@ -173,11 +173,11 @@
                 <p>Los cursos en línea ofrecidos por 3CT se imparten en diferentes horarios al trascurso del día, desde mañana hasta la noches, inclusive los fines de semana. Podrás estudiar cuando te conviene.</p>
                 <a href="#ventana-horarios" id=btnVentana class="btn">Consulta los horarios</a>
                 <aside id="ventana-horarios" class="ventana-horarios">
-                    <div class="abrir-ventana" id="ventana">
+                    <div class="abrir-ventana">
                         <div class="cerrar" id="cerrar">
                             <a href="javascript:cerrar()">X</a>
                         </div>
-                        <h3>Horarios Prueba Botón</h3>
+                        <h3>Horarios Prueba</h3>
                         <ul>
                             <li>Martes y jueves 18:30 a 21:00</li>
                             <li>Sábados  09:00 a 14:00</li>
@@ -361,7 +361,7 @@
         });
         
         function cerrar() {
-            document.getElementById("ventana").style.display = "none";
+            document.getElementById("ventana-horarios").style.display = "none";
         }
     </script>
 
