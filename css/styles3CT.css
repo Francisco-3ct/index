@@ -204,7 +204,8 @@ section div.renglon aside.ventana-horarios div.abrir-ventana a.btnCerrar {
 }
 
 section div.renglon aside.ventana-horarios div.abrir-ventana a.btnCerrar:hover {
-  color: orange;
+  background-color: blue;
+  box-shadow: 0 0 10px #ccc;
 }
 
 /* barra superior */
