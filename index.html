@@ -174,10 +174,8 @@
                 <a href="#ventana-horarios" id=btnVentana class="btn">Consulta los horarios</a>
                 <aside id="ventana-horarios" class="ventana-horarios">
                     <div class="abrir-ventana">
-                        <div class="cerrar" id="cerrar">
-                            <a href="javascript:cerrar()">X</a>
-                        </div>
-                        <h3>Horarios Prueba</h3>
+                       <Input type = "button" value = "Cerrar">
+                        <h3>Horarios</h3>
                         <ul>
                             <li>Martes y jueves 18:30 a 21:00</li>
                             <li>Sábados  09:00 a 14:00</li>
@@ -360,9 +358,7 @@
             });
         });
         
-        function cerrar() {
-            document.getElementById("ventana-horarios").style.display = "none";
-        }
+        onclick = "window.close ()"
     </script>
 
 </body>
