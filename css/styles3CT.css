@@ -478,10 +478,6 @@ main#curso {
   padding: 1em 2em 4em 2em;
 }
 
-ul li {
-  list-style-type: circle;
-  margin: 0 0 0 1em;
-}
 #curso a.btn {
   background-color: #1A659E;
   color: #fff;
