@@ -258,6 +258,7 @@ section div.renglon aside.ventana-horarios div.abrir-ventana a.btnCerrar {
   top: 100%; 
   left: 0;
   display: none;
+  z-index:10000;
 }
 .ddsub a { 
   display: block; 
