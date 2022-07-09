@@ -329,81 +329,127 @@
 				    <li>Excepciones Predefinidas.</li>
 			    </ol>
 		        </li>
-				 <p>Bases de datos SQL</p>
-		    		    <ol value="1">
-					<li>Diseño y consultas básicas de una Base de datos SQL
-						básico
-						<ol type="a">
-							<li>Introducción</li>
-							<li>¿Qué es un gestor de bases de datos?</li>
-							<li>¿Qué es SQL?</li>
-							<li>DDL, DML, DCL</li>
-							<li>Crear y eliminar una Base de datos</li>
-							<li>Objetos de la Base de Datos</li>
-							<li>Definición del objeto TABLE</li>
-							<li>Tipos de datos</li>
-							<li>Creando y eliminando objetos TABLE ́s</li>
-							<li>Poblar tablas (INSERT INTO)</li>
-							<li>Restricciones NOT NULL, UNIQUE, DEFAULT, PRIMARY KEY</li>
-							<li>Modificando datos (UPDATE DELETE)</li>
-							<li>Modificación de la estructura de una tabla (ALTER TABLE)</li>
-							<li>Consultas con filtro (WHERE IN BETWEEN)</li>
-							<li>Alias en los nombres de columna y en los nombres de tablas</li>
-							<li>Funciones de agregado COUNT () SUM () AVG () MIN () MAX ()</li>
-						</ol>
-					</li>	
-					<li>SQL intermedio
-				 	<p>Modelo relacional y consultas avanzadas de una Base de datos</p>
-						<ol type="a">
-							<li>Llave primaria de identidad y compuesta</li>
-							<li>Consultas con columnas calculadas</li>
-							<li>Tipos de relaciones</li>
-							<li>Creación de llaves secundarias</li>
-							<li>Control en los nombres de los CONSTRAINTS</li>
-							<li>Funciones de fecha</li>
-							<li>Consultas con unión de tablas (WHERE INNER JOIN)</li>
-							<li>Consultas con funciones de agregado y GROUP BY</li>
-							<li>Uso de la cláusula HAVING</li>
-							<li>Consultas avanzadas (subconsultas)</li>
-							<li>Creación y eliminación de Vistas VIEW</li>
-							<li>Usar consultas complejas para crear vistas</li>
-						</ol>
-					</li>	
-					<li>Funcionalidad y Programación en la capa de la base de
-						datos
-						<ol type="a">
-							<li>Restricción CHECK</li>
-							<li>Secuencias</li>
-							<li>Uniones externas LEFT, RIGHT, FULL</li>
-							<li>¿Qué es Transact-SQL?</li>
-							<li>Introducción a los procedimientos
-							    almacenados (STORE PROCEDURE)</li>
-							<li>Parámetros de entrada y salida en los procedimientos</li>
-							<li>Usar consultas complejas para crear procedimientos
-							    almacenados</li>
-							<li>Declaración y uso de variables</li>
-							<li>Estructura de control IF...ELSE</li>
-							<li>Construcción y eliminación de funciones FUNCTION</li>
-							<li>Lógica en funciones</li>
-							<li>Estructura de control CASE</li>
-							<li>Estructura de control GO TO</li>
-							<li>Estructura de control WHILE</li>
-							<li>Prácticas con funciones</li>
-							<li>Tipos de datos definidos por el usuario</li>
-							<li>Tablas temporales locales y globales</li>
-							<li>Clausula TOP</li>
-							<li>SQL Dinámico</li>
-							<li>Uso de Cursores</li>
-							<li>Manejo y control de errores</li>
-							<li>¿Qué es una transacción?</li>
-							<li>BEGIN TRANSACTION, ROLLBACK TRANSACTION, COMMIT</li>
-							<li>Introducción a los desencadenadores (TRIGGER)</li>
-							<li>Tipos de Triggers. FOR y AFTER</li>
-							<li>Los Triggers y la integridad de datos</li>
-							
-						</ol>
-					    </li>
-				</ol>  
+		       <li>Control Iterativo.
+			   <ol type="a">
+				    <li>Ciclo LOOP SIMPLE.</li>
+				    <li>Ciclo WHILE</li>
+				    <li>Ciclo FOR</li>
+			    </ol>
+		        </li>
+		       <li>Cursores.
+			   <ol type="a">
+				    <li>Tipos de Cursores: Implícitos y Explícitos (Contexto).</li>
+				    <li>Atributos de los Cursores.</li>
+				    <li>Cursores Implícitos.</li>
+				    <li>Cursores Explícitos con Query Fijo.</li>
+				    <li>Cursores Explícitos de Query con criterios variables.</li>
+				    <li>Cursores Explícitos con parámetros de entrada.</li>
+				    <li>Cursores Explícitos con Querys Dinámicos.</li>
+			    </ol>
+		        </li>
+		        <li>Procedimientos y Funciones.
+			    <ol type="a">
+				     <li>Arquitectura de procedimientos y funciones.</li>
+				     <li>Construcción de procedimientos Almacenados.</li>
+				     <li>Construcción de Funciones</li>
+				     <li>Estatus de procedimientos y funciones.</li>
+				     <li>Procedimientos con parámetros: entrada, salida y entrada/salida.</li>
+				     <li>Ejecutar sentencias DDL desde programas PL/SQL.</li>
+			     </ol>
+		         </li>
+		         <li>Paquetes PL/SQL.
+			     <ol type="a">
+				      <li>Concepto.</li>
+				      <li>Declaración e Implementación de los package.</li>
+				      <li>Tipos de elementos contenidos en un package.</li>
+				      <li>Estatus de procedimientos y funciones.</li>
+			      </ol>
+		          </li>
+		</ol>
+		<p>PL/SQL II</p>
+		<ol value="1">
+			  <li>Trigger ́s DML
+			      <ol type="a">
+				       <li>Contexto.</li>
+				       <li>Clasificación de trigger's.</li>
+				       <li>Trigger's DML. Modelo de Ejecución en las transacciones.</li>
+				       <li>Ejecución por Sentencia o por Fila.</li>
+				       <li>Los objetos OLD y NEW.</li>
+				       <li>Trigger de tipos INSTEAD OF.</li>
+				       <li>Trigger's DDL y Trigger de Autenticación. Modelo de Ejecución.</li>
+				       <li>Modificación y Borrado de trigger's.</li>
+				 </ol>
+			    </li>	
+			    <li>Trabajando con tipos de Datos de Gran tamaño.
+				<ol type="a">
+					 <li>Elementos de gran tamaño para Manejar Textos.</li>
+					 <li>Cargando datos desde Archivos de texto.</li>
+					 <li>Elementos para almacenar datos en formato binario.</li>
+					 <li>Lectura de archivos y carga de información en formato binario.</li>
+					 <li>Aseguramiento de la información almacenada en objetos de gran tamaño.</li>
+					 <li>Manejo del api contenida en el package DBMS_LOB.</li>
+					 <li>Uso de objetos de contexto en la programación PL.</li>
+				 </ol>
+			     </li>	
+			     <li>Tipos definidos por el usuario en la base de datos. Type's.
+				 <ol type="a">
+					  <li>Contexto.</li>
+					  <li>Declaración e inicialización de Type's.</li>
+					  <li>Uso de los Type's.</li>
+					  <li>Colecciones de Type's.</li>
+					  <li>Subtypes.</li>
+					  <li>Construcción de colecciones de objetos.</li>
+				  </ol>
+			     </li>
+			     <li>Trabajo con archivos de texto.
+				 <ol type="a">
+					  <li>El paquete UTL_FILE. Contexto y modelo.</li>
+					  <li>Lectura y escritura de archivos mediante UTL_FILE.</li>
+				  </ol>
+			     </li>
+		</ol> 
+                <p>ADMINISTRACION</p>
+		<ol value="1">
+			  <li>Trigger ́s DML
+			      <ol type="a">
+				       <li>Contexto.</li>
+				       <li>Clasificación de trigger's.</li>
+				       <li>Trigger's DML. Modelo de Ejecución en las transacciones.</li>
+				       <li>Ejecución por Sentencia o por Fila.</li>
+				       <li>Los objetos OLD y NEW.</li>
+				       <li>Trigger de tipos INSTEAD OF.</li>
+				       <li>Trigger's DDL y Trigger de Autenticación. Modelo de Ejecución.</li>
+				       <li>Modificación y Borrado de trigger's.</li>
+				 </ol>
+			    </li>	
+			    <li>Trabajando con tipos de Datos de Gran tamaño.
+				<ol type="a">
+					 <li>Elementos de gran tamaño para Manejar Textos.</li>
+					 <li>Cargando datos desde Archivos de texto.</li>
+					 <li>Elementos para almacenar datos en formato binario.</li>
+					 <li>Lectura de archivos y carga de información en formato binario.</li>
+					 <li>Aseguramiento de la información almacenada en objetos de gran tamaño.</li>
+					 <li>Manejo del api contenida en el package DBMS_LOB.</li>
+					 <li>Uso de objetos de contexto en la programación PL.</li>
+				 </ol>
+			     </li>	
+			     <li>Tipos definidos por el usuario en la base de datos. Type's.
+				 <ol type="a">
+					  <li>Contexto.</li>
+					  <li>Declaración e inicialización de Type's.</li>
+					  <li>Uso de los Type's.</li>
+					  <li>Colecciones de Type's.</li>
+					  <li>Subtypes.</li>
+					  <li>Construcción de colecciones de objetos.</li>
+				  </ol>
+			     </li>
+			     <li>Trabajo con archivos de texto.
+				 <ol type="a">
+					  <li>El paquete UTL_FILE. Contexto y modelo.</li>
+					  <li>Lectura y escritura de archivos mediante UTL_FILE.</li>
+				  </ol>
+			     </li>
+			</ol>
 		</ol>
 	    
 	    
