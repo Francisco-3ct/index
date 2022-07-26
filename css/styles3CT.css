@@ -666,3 +666,9 @@ MEDIA QUERIES
       max-width: 47%;
     }
   }
+/* mobile */
+@media screen and (max-width:426px) {
+  #logo3CT {
+    display: none;
+  }
+}
