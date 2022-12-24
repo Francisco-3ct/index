@@ -600,9 +600,11 @@ div#anuncio2 p:last-child a {
   margin: 0;
 }
 .iconContact{
-  margin-right: 10px;
+  margin-right: 7px;
 }
-
+.number{
+  font-size: 11px !important;
+}
 /* ----------
 
 MEDIA QUERIES  
