@@ -15,30 +15,30 @@
         gtag('config', 'AW-1069296032');
     </script>
 
-  <script type="text/javascript">
+ <script type="text/javascript">
 document.addEventListener("DOMContentLoaded", function() {
 console.log("DOM is ready for action");
-document.addEventListener('click', function(e) {
-    for(let p of e.path) {
-        if(p.matches && p.matches('a[href*="wa.me"]')) {
-            console.log('click whatsapp');
-          	gtag('event', 'conversion', {'send_to': 'AW-1069296032/vkjcCIi07ogYEKDT8P0D'});
-            gtag('event', 'Whatsapp')
-        }
-        if(p.matches && p.matches('a[href*="mailto:":]')) {
-            console.log('click correo');
-            gtag('event', 'conversion', {'send_to': 'AW-1069296032/3M0VCI607ogYEKDT8P0D'});
-            gtag('event', 'phoneGoogle')
-        }
-        if(p.matches && p.matches('a[href*="tel:"]')) {
-            console.log('click tel');
-            gtag('event', 'conversion', {'send_to': 'AW-1069296032/mIUSCIu07ogYEKDT8P0D'});
-            gtag('event', 'telefonoGoogle')
-        }
-    }
-})
+document.addEventListener('click', function(e){
+for(i=0;i<e.path.length;i++){
+if(e.path[i].host || e.path[i].href || e.path[i].className) {
+if(e.path[i].host.includes("wa.me")) {
+console.log('WhatsApp has been clicked');
+gtag('event', 'conversion', {'send_to': 'AW-1069296032/vkjcCIi07ogYEKDT8P0D'});
+}
+if(e.path[i].href.includes("mailto:")) {
+console.log('mail been clicked');
+gtag('event', 'conversion', {'send_to': 'AW-1069296032/3M0VCI607ogYEKDT8P0D'});
+}
+if(e.path[i].href.includes("tel:")) {
+console.log('phone been clicked');
+gtag('event', 'conversion', {'send_to': 'AW-1069296032/mIUSCIu07ogYEKDT8P0D'});
+}
+}
+};
 });
-</script> 
+});
+</script>
+    
     
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
